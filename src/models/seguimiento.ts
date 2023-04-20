@@ -1,7 +1,6 @@
 import {  Schema, model, PaginateModel } from "mongoose";
 import { Seguimiento } from "../interfaces/seguimiento.interface";
 import mongoosePaginate from "mongoose-paginate-v2";
-import { Persona } from "../interfaces/persona.interface";
 
 interface PaginatedSeguimientoModel<T> extends PaginateModel<T> {}
 

@@ -16,11 +16,11 @@ const PersonaSchema = new Schema<Persona>(
         },
         seguimientos:{
             type: [Schema.Types.ObjectId],
-            required:true,
+            required:false,
         },
         vacunas:{
             type: [Schema.Types.ObjectId],
-            required:true,
+            required:false,
         },
     },
     {
